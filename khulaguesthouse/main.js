@@ -5,10 +5,11 @@ let currentPicNo = 0;
 console.log(picsArray[currentPicNo]);
 
 nextPic();
+nextPic();
 
 
 function nextPic() {
-    currentPicNo = 1;
+    currentPicNo = 1;// change this line
     console.log(picsArray[currentPicNo]);
 }
 
